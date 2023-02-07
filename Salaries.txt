@@ -1,0 +1,9 @@
+#bonus
+period=int(input("Enter number of years_"))
+salary=int(input("Enter amount_"))
+if (period>10):
+   print("net bonus is ",salary*0.1)
+elif("period >=6 and period <=10"):
+    print("net bonus",salary*0.08)
+else:
+  print("net bonus is ",salary*0.05)
